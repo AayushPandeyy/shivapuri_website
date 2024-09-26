@@ -3,7 +3,7 @@ import React from "react";
 const StatsSection = () => {
   return (
     <div
-      className="h-64 bg-blue-500 mb-10 w-full"
+      className=" bg-blue-500 mb-10 w-full"
       style={{
         backgroundImage: `url("https://www.shutterstock.com/image-vector/school-seamless-background-education-science-600nw-2185343577.jpg")`,
       }}
@@ -14,20 +14,20 @@ const StatsSection = () => {
       >
         Our Journey
       </h1>
-      <div className="stats flex flex-wrap justify-around items-center h-40 text-white text-center">
-        <div className="stat1 flex flex-col border-4 p-10 border-black rounded-lg bg-black w-[20%]">
+      <div className="flex flex-wrap justify-around items-center  text-white text-center py-6 gap-8 ">
+        <div className=" w-full mx-1 flex flex-col border-4 p-10 border-black rounded-lg bg-black sm:w-[45%] md:w-[30%] lg:w-[25%]">
           <h1 className="text-3xl" style={{ fontFamily: "Quantico" }}>
             20+
           </h1>
-          <p>Teachers</p>
+          <p>Qualified Teachers</p>
         </div>
-        <div className="stat1 flex flex-col border-4 p-10 border-black rounded-lg bg-black w-[20%]">
+        <div className=" w-full mx-1 flex flex-col border-4 p-10 border-black rounded-lg bg-black sm:w-[45%] md:w-[30%] lg:w-[25%]">
           <h1 className="text-3xl" style={{ fontFamily: "Quantico" }}>
             600+
           </h1>
-          <p>Students</p>
+          <p>Excellent Students</p>
         </div>
-        <div className="stat1 flex flex-col border-4 p-10 border-black rounded-lg bg-black w-[20%]">
+        <div className=" w-full mx-1 flex flex-col border-4 p-10 border-black rounded-lg bg-black sm:w-[45%] md:w-[30%] lg:w-[25%]">
           <h1 className="text-3xl" style={{ fontFamily: "Quantico" }}>
             10+
           </h1>

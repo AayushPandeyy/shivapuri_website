@@ -11,16 +11,11 @@ const WelcomeSection = () => {
           Welcome
         </h1>
         <p style={{ fontFamily: "Yusei Magic" }} className="mb-4">
-          Shivapuri College is a renowned educational institution located in
-          Nepal, dedicated to providing quality higher education. Known for its
-          diverse academic programs, the college fosters a vibrant learning
-          environment that encourages critical thinking and creativity. With a
-          team of experienced faculty members, modern facilities, and a focus on
-          holistic development, Shivapuri College prepares students to excel in
-          their chosen fields and contribute positively to society. The college
-          also emphasizes extracurricular activities, promoting a well-rounded
-          educational experience that helps students build essential life
-          skills.
+          Shivapuri College, founded in 2009 at Maharajgunj, Kathmandu, Nepal,
+          is a renowned educational institution affiliated with Tribhuvan
+          University. The college offers a Bachelor of Business Studies (BBS)
+          program, which is designed to develop competent business professionals
+          equipped to meet the challenges of the modern business world.
         </p>
         <img
           src="https://www.pngitem.com/pimgs/b/332-3322444_facsimile-png-download-fake-signature-transparent-background-png.png"
