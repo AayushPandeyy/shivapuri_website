@@ -4,6 +4,7 @@ import TopNavBar from "../components/homePage/TopNavBar";
 import HeroSection from "../components/homePage/HeroSection";
 import WelcomeSection from "../components/homePage/WelcomeSection";
 import CoursesOfferedSection from "../components/homePage/CoursesOfferedSection";
+import StatsSection from "../components/homePage/StatsSection";
 
 const HomeComponent = () => {
   return (
@@ -12,7 +13,7 @@ const HomeComponent = () => {
       <Navbar />
       <HeroSection></HeroSection>
       <WelcomeSection></WelcomeSection>
-      <div className="divider border-[1px] border-black w-full mb-10"></div>
+      <StatsSection></StatsSection>
       <CoursesOfferedSection></CoursesOfferedSection>
     </div>
   );

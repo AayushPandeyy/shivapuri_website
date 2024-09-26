@@ -44,7 +44,7 @@ const CoursesOfferedSection = () => {
             laudantium tempora maxime aspernatur rerum quibusdam iusto animi
             mollitia perferendis. Commodi?
           </p>
-          <button className="bg-transparent border-black border-[2px] text-black hover:bg-[#D9252A] hover:text-black font-bold py-3 px-6 rounded">
+          <button className="bg-transparent mb-4 border-black border-[2px] text-black hover:bg-[#D9252A] hover:text-black font-bold py-3 px-6 rounded">
             LEARN MORE
           </button>
         </div>
