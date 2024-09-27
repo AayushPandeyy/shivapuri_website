@@ -3,7 +3,7 @@ import React from "react";
 const StatsSection = () => {
   return (
     <div
-      className=" bg-blue-500 mb-10 w-full"
+      className=" bg-blue-500 w-full"
       style={{
         backgroundImage: `url("https://www.shutterstock.com/image-vector/school-seamless-background-education-science-600nw-2185343577.jpg")`,
       }}
