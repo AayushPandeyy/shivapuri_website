@@ -55,7 +55,7 @@ const CoursesOfferedSection = () => {
             href=""
             className="w-44 inline-block text-center  bg-purple-600 rounded-full p-4 text-white font-bold hover:shadow-lg hover:scale-105 transition duration-200"
           >
-            Apply Now
+            Learn More
           </a>
         </div>
       </div>
