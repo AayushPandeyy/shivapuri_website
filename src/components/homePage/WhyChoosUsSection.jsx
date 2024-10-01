@@ -104,7 +104,7 @@ const WhyChoosUsSection = () => {
             </div>
           ))}
         </div>
-        <div className="flex gap-2 flex-wrap justify-center mb-20">
+        <div className="flex gap-2 flex-wrap justify-center mb-10">
           {whyChooseUs.slice(5, 10).map((item, index) => (
             <div
               key={index + 5}

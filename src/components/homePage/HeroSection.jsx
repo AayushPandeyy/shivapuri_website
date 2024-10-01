@@ -1,11 +1,12 @@
 import React from "react";
+import bgImage from "../../assets/image-5.jpg";
 
 const HeroSection = () => {
   return (
     <div
       className="relative w-full h-[750px] bg-cover bg-center"
       style={{
-        backgroundImage: `url("https://www.setopati.com/uploads/posts/shivapuri%20school%20(8)1648743762.jpg")`,
+        backgroundImage: `url(${bgImage})`,
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-70"></div>{" "}

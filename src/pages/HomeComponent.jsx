@@ -6,6 +6,7 @@ import WelcomeSection from "../components/homePage/WelcomeSection";
 import CoursesOfferedSection from "../components/homePage/CoursesOfferedSection";
 import StatsSection from "../components/homePage/StatsSection";
 import WhyChoosUsSection from "../components/homePage/WhyChoosUsSection";
+import TestimonialsSection from "../components/homePage/TestimonialsSection";
 
 const HomeComponent = () => {
   return (
@@ -17,6 +18,7 @@ const HomeComponent = () => {
       <StatsSection></StatsSection>
       <CoursesOfferedSection></CoursesOfferedSection>
       <WhyChoosUsSection></WhyChoosUsSection>
+      <TestimonialsSection></TestimonialsSection>
     </div>
   );
 };
