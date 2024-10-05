@@ -8,19 +8,29 @@ import StatsSection from "../components/homePage/StatsSection";
 import WhyChoosUsSection from "../components/homePage/WhyChoosUsSection";
 import TestimonialsSection from "../components/homePage/TestimonialsSection";
 import SendUsAMessageSection from "../components/homePage/SendUsAMessageSection";
+import Footer from "../components/homePage/Footer";
+import bg from "../assets/image-7.jpg";
 
 const HomeComponent = () => {
   return (
     <div>
       <TopNavBar />
-      <Navbar />
-      <HeroSection></HeroSection>
+      <div
+        className="bg-cover"
+        style={{
+          backgroundImage: `url(${bg})`,
+        }}
+      >
+        <Navbar />
+        <HeroSection></HeroSection>
+      </div>
       <WelcomeSection></WelcomeSection>
-      <StatsSection></StatsSection>
       <CoursesOfferedSection></CoursesOfferedSection>
+      <StatsSection></StatsSection>
       <WhyChoosUsSection></WhyChoosUsSection>
       <TestimonialsSection></TestimonialsSection>
       <SendUsAMessageSection></SendUsAMessageSection>
+      <Footer></Footer>
     </div>
   );
 };

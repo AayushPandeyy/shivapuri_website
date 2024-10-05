@@ -91,7 +91,8 @@ const WhyChoosUsSection = () => {
     <section>
       <div className="mainContainer flex flex-col">
         <div className="title mt-10">
-          <h1 className="text-4xl text-center mb-20">Why Choose Us?</h1>
+          <h1 className="text-4xl text-center mb-5">Why Choose Us?</h1>
+          <div className="h-[3px] border-blue-700 border-[1px] bg-blue-700 w-[25%] mx-auto mb-10"></div>
         </div>
         <div className="flex gap-2 flex-wrap justify-center">
           {whyChooseUs.slice(0, 5).map((item, index) => (

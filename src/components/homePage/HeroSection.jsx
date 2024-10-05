@@ -3,12 +3,7 @@ import bgImage from "../../assets/image-1.jpg";
 
 const HeroSection = () => {
   return (
-    <div
-      className="relative w-full h-[750px] bg-cover bg-center"
-      style={{
-        backgroundImage: `url(${bgImage})`,
-      }}
-    >
+    <div className="relative w-full h-[750px] bg-cover bg-center">
       <div className="absolute inset-0 bg-black bg-opacity-70"></div>{" "}
       {/* Overlay */}
       <div className="relative flex flex-col justify-center items-center h-full text-center px-6">

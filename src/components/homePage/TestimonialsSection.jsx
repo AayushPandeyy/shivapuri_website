@@ -82,13 +82,13 @@ const TestimonialsSection = () => {
         <div className="buttons flex gap-1 justify-center items-center mb-5">
           <button
             onClick={prevSlide}
-            className="h-16 w-16 text-2xl text-black p-5 bg-gray-400 rounded-lg"
+            className="h-16 w-16 text-2xl text-gray-600 p-5 bg-gray-300 rounded-lg"
           >
             <FaArrowLeft />
           </button>
           <button
             onClick={nextSlide}
-            className="h-16 w-16 text-2xl text-black p-5 bg-gray-400 rounded-lg"
+            className="h-16 w-16 text-2xl text-gray-600 p-5 bg-gray-300 rounded-lg"
           >
             <FaArrowRight />
           </button>
@@ -107,6 +107,11 @@ const TestimonialsSection = () => {
                   key={index}
                   className="test1 rounded-lg bg-white py-5 px-5 w-[40%] flex-shrink-0 flex flex-col justify-center items-center gap-2"
                 >
+                  <img
+                    src={item.image}
+                    alt=""
+                    className="h-32 w-32 rounded-full object-contain"
+                  />
                   <FaQuoteLeft className="text-2xl text-yellow-500 self-start" />
                   <p className="italic">{item.content}</p>
                   <FaQuoteRight className="text-2xl text-yellow-500 self-end" />

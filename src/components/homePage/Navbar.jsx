@@ -5,47 +5,54 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav
-      className=" shadow-lg w-full"
+      className="relative shadow-lg w-full"
       style={{
-        backgroundColor: "#0056A7",
         fontFamily: "Oswald",
         fontWeight: "bold",
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-center h-20  ">
+        <div className="absolute inset-0 bg-black bg-opacity-70 z-0"></div>{" "}
+        <div
+          className="relative flex justify-center h-20 z-10
+         "
+        >
           <div
             className="hidden md:flex gap-2 items-center"
             style={{ fontFamily: "Kanit" }}
           >
             <a
               href="/home"
-              className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium"
+              className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium "
             >
               Home
             </a>
             <a
               href="/about"
-              className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium"
+              className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium "
             >
               About Us
             </a>
             <a
               href="/skills"
-              className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium"
+              className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium "
             >
               Academics
             </a>
-            <img className="rounded-full h-20 w-20" src={logo} alt="" />
+            <img
+              className="rounded-full h-20 w-20 mx-10 object-contain"
+              src={logo}
+              alt=""
+            />
             <a
               href="/projects"
-              className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium"
+              className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium "
             >
               Admission
             </a>
             <a
               href="/gallery"
-              className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium"
+              className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium "
             >
               Gallery
             </a>
