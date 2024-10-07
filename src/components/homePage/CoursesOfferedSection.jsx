@@ -3,7 +3,7 @@ import { FaBook, FaKitMedical } from "react-icons/fa6";
 
 const CoursesOfferedSection = () => {
   return (
-    <section className="courseOffered flex flex-col gap-4 w-full bg-gradient-to-t from-blue-100 via-purple-100 to-pink-100">
+    <section className="courseOffered flex flex-col gap-4 w-full bg-gradient-to-b from-transparent via-purple-100 to-pink-100">
       <div className="mainContainer py-4">
         <div className="header text-center w-[40%] mx-auto mb-10 mt-10">
           <h1 className="mb-4 text-4xl" style={{ fontFamily: "Kinat" }}>

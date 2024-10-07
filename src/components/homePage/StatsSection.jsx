@@ -29,7 +29,7 @@ const StatsSection = () => {
         </div>
         <div className=" w-full mx-1 flex flex-col border-4 p-10 border-black rounded-lg bg-black sm:w-[45%] md:w-[30%] lg:w-[25%]">
           <h1 className="text-3xl" style={{ fontFamily: "Quantico" }}>
-            10+
+            15+
           </h1>
           <p>Years of Excellency</p>
         </div>
