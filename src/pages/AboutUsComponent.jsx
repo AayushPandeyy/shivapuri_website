@@ -6,6 +6,7 @@ import bg from "../assets/image-8.jpeg";
 import OurMissionSection from "../components/aboutUsPage/OurMIssionSection";
 import OurFeaturesSection from "../components/aboutUsPage/OurFeaturesSection";
 import Footer from "../components/common/Footer";
+import MessageFromThePrincipalSection from "../components/aboutUsPage/MessageFromThePrincipalSection";
 
 const AboutUsComponent = () => {
   return (
@@ -20,6 +21,7 @@ const AboutUsComponent = () => {
         <Navbar />
         <AboutUsHeroSection></AboutUsHeroSection>
       </div>
+      <MessageFromThePrincipalSection></MessageFromThePrincipalSection>
       <OurMissionSection></OurMissionSection>
       <OurFeaturesSection></OurFeaturesSection>
       <Footer></Footer>

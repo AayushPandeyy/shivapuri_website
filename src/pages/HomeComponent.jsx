@@ -15,7 +15,7 @@ const HomeComponent = () => {
   return (
     <div>
       <div
-        className="bg-cover"
+        className="bg-cover bg-top"
         style={{
           backgroundImage: `url(${bg})`,
         }}

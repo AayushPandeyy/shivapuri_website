@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -23,9 +24,12 @@ const HeroSection = () => {
           <button className="bg-[#D9252A] hover:bg-transparent border-[2px] border-[#D9252A] text-white font-bold py-3 px-6 rounded shadow-lg">
             SEE PROGRAMS
           </button>
-          <button className=" bg-[#0056A7] text-white hover:bg-transparent border-[2px] border-[#0056A7]  hover:text-white font-bold py-3 px-6 rounded shadow-lg">
+          <Link
+            to="/about-us"
+            className=" bg-[#0056A7] text-white hover:bg-transparent border-[2px] border-[#0056A7]  hover:text-white font-bold py-3 px-6 rounded shadow-lg"
+          >
             LEARN MORE
-          </button>
+          </Link>
         </div>
       </div>
     </div>
