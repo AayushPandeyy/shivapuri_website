@@ -1,17 +1,17 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import HomeComponent from '../pages/HomeComponent'
-import AboutUsComponent from '../pages/AboutUsComponent'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import HomeComponent from "../pages/HomeComponent";
+import AboutUsComponent from "../pages/AboutUsComponent";
 
 const RouterComponent = () => {
   return (
     <div>
       <Routes>
-        <Route path='/' element = {<HomeComponent></HomeComponent>}></Route>
-        <Route path='/about-us' element = {<AboutUsComponent></AboutUsComponent>}></Route>
+        <Route path="/" element={<HomeComponent />}></Route>
+        <Route path="/about-us" element={<AboutUsComponent />}></Route>
       </Routes>
     </div>
-  )
-}
+  );
+};
 
-export default RouterComponent
+export default RouterComponent;

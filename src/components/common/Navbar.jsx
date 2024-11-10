@@ -22,12 +22,12 @@ const Navbar = () => {
             className="hidden md:flex gap-2 items-center"
             style={{ fontFamily: "Kanit" }}
           >
-            <a
-              href="/"
+            <Link
+              to="/"
               className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium "
             >
               Home
-            </a>
+            </Link>
             <Link
               to="/about-us"
               className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium "
@@ -40,11 +40,13 @@ const Navbar = () => {
             >
               Academics
             </Link>
-            <img
-              className="rounded-full h-20 w-20 mx-10 object-contain"
-              src={logo}
-              alt=""
-            />
+            <Link to="/">
+              <img
+                className="rounded-full h-20 w-20 mx-10 object-contain"
+                src={logo}
+                alt=""
+              />
+            </Link>
             <Link
               href="/projects"
               className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium "
