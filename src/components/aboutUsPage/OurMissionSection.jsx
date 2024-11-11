@@ -5,12 +5,7 @@ const OurMissionSection = () => {
   return (
     <section className="bg-gray-100 py-16 w-full">
       <div className="container mx-auto px-6 md:px-12 text-start">
-        <h2
-          className="text-4xl font-bold text-gray-800 mb-6"
-          style={{ fontFamily: "Quantico" }}
-        >
-          Our Mission
-        </h2>
+        <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Mission</h2>
         <div className="flex justify-between items-center w-full ">
           <p className="text-lg text-gray-600 w-[80%] text-start">
             Shivapuri College, founded in 2009 at Maharajgunj, Kathmandu, Nepal,

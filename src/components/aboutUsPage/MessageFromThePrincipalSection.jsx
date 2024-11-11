@@ -5,10 +5,7 @@ const MessageFromThePrincipalSection = () => {
   return (
     <section className="bg-white py-16">
       <div className="container mx-auto px-6 md:px-12 text-center">
-        <h2
-          className="text-4xl font-bold text-gray-800 mb-6"
-          style={{ fontFamily: "Quantico" }}
-        >
+        <h2 className="text-4xl font-bold text-gray-800 mb-6">
           Message From the Principal
         </h2>
         <div className="flex">

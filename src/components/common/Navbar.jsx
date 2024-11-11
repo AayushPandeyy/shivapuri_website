@@ -8,7 +8,6 @@ const Navbar = () => {
     <nav
       className="relative w-full"
       style={{
-        fontFamily: "Oswald",
         fontWeight: "bold",
       }}
     >
@@ -18,10 +17,7 @@ const Navbar = () => {
           className="relative flex justify-center h-20 z-10
          "
         >
-          <div
-            className="hidden md:flex gap-2 items-center"
-            style={{ fontFamily: "Kanit" }}
-          >
+          <div className="hidden md:flex gap-2 items-center">
             <Link
               to="/"
               className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium "
@@ -97,10 +93,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div className="md:hidden ">
-          <div
-            className="space-y-1 px-2 pb-3 sm:px-3"
-            style={{ fontFamily: "Kanit" }}
-          >
+          <div className="space-y-1 px-2 pb-3 sm:px-3">
             <Link
               href="/"
               className="block text-white hover:text-red-500  px-3 py-2 rounded-md text-base font-medium"

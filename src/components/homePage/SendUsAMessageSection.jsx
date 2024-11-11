@@ -7,7 +7,7 @@ const SendUsAMessageSection = () => {
     <section>
       <div
         className="mainContainer flex flex-col lg:flex-row w-full flex-wrap"
-        style={{ fontFamily: "Quantico", position: "relative" }}
+        style={{ position: "relative" }}
       >
         {/* Background Overlay */}
         <div
@@ -25,7 +25,7 @@ const SendUsAMessageSection = () => {
             <h1 className="text-4xl sm:text-5xl font-bold mb-4">
               Get In Touch
             </h1>
-            <p className="text-gray-500 mb-6">
+            <p className="text-gray-500 font-bold mb-6">
               We are here to assist you. Feel free to reach out to us through
               any of the options below.
             </p>
@@ -85,16 +85,10 @@ const SendUsAMessageSection = () => {
             backgroundColor: "white",
           }}
         >
-          <h1
-            className="text-sm font-bold text-center text-red-400"
-            style={{ fontFamily: "Bungee Hairline" }}
-          >
+          <h1 className="text-sm font-bold text-center text-red-400">
             Contact Us
           </h1>
-          <h1
-            className="text-xl sm:text-2xl font-bold text-center mb-6 text-[#0056A7]"
-            style={{ fontFamily: "Quantico" }}
-          >
+          <h1 className="text-xl sm:text-2xl font-bold text-center mb-6 text-[#0056A7]">
             We'd love to hear from you!
           </h1>
 

@@ -1,19 +1,10 @@
-import React, { useState, useEffect } from "react";
-import {
-  FaArrowRight,
-  FaBackward,
-  FaQuoteLeft,
-  FaQuoteRight,
-} from "react-icons/fa";
+import React, { useState } from "react";
+import { FaArrowRight, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import test1 from "../../assets/testimonial-1.png";
 import test2 from "../../assets/testimonial-2.png";
 import test3 from "../../assets/testimonial-3.png";
 import test4 from "../../assets/testimonial-4.png";
-import {
-  FaArrowLeft,
-  FaArrowRightArrowLeft,
-  FaBackwardStep,
-} from "react-icons/fa6";
+import { FaArrowLeft } from "react-icons/fa6";
 
 const TestimonialsSection = () => {
   const testimonials = [
@@ -68,12 +59,7 @@ const TestimonialsSection = () => {
   return (
     <section className="testimonials w-full mb-5">
       <div className="mainContainer">
-        <h1
-          className="text-center text-4xl font-bold"
-          style={{ fontFamily: "Quantico" }}
-        >
-          Testimonials
-        </h1>
+        <h1 className="text-center text-4xl font-bold">Testimonials</h1>
         <p className="text-center mb-4 font-bold text-gray-500">
           Hear what people have to say about us!
         </p>

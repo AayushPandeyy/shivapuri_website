@@ -3,14 +3,9 @@ import React from "react";
 const WelcomeSection = () => {
   return (
     <div className="flex justify-center items-center p-4 mt-10 mb-10 w-[70%] mx-auto">
-      <div className="flex flex-col justify-center items-center h-full text-center px-6">
-        <h1
-          className="text-4xl font-bold mb-4"
-          style={{ fontFamily: "Quantico" }}
-        >
-          Welcome
-        </h1>
-        <p style={{ fontFamily: "Yusei Magic" }} className="mb-4">
+      <div className="flex flex-col justify-center items-center h-full text-center px-72">
+        <h1 className="text-4xl font-bold mb-4">Welcome</h1>
+        <p className="mb-4 text-gray-500 font-bold">
           Shivapuri College, founded in 2009 at Maharajgunj, Kathmandu, Nepal,
           is a renowned educational institution affiliated with Tribhuvan
           University. The college offers a Bachelor of Business Studies (BBS)

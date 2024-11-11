@@ -1,12 +1,11 @@
 import React from "react";
-import { FaBook, FaKitMedical } from "react-icons/fa6";
 
 const CoursesOfferedSection = () => {
   return (
     <section className="courseOffered flex flex-col gap-4 w-full bg-gradient-to-b from-transparent via-purple-100 to-pink-100">
       <div className="mainContainer py-4">
         <div className="header text-center w-[40%] mx-auto mb-10 mt-10">
-          <h1 className="mb-4 text-4xl" style={{ fontFamily: "Kinat" }}>
+          <h1 className="mb-4 font-bold text-4xl">
             Bachelors In Business Studies
           </h1>
           <p className="text-gray-500 font-bold">

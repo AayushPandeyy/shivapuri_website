@@ -91,10 +91,7 @@ const OurFeaturesSection = () => {
               className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
             >
               {feature.icon}
-              <h3
-                className="text-2xl font-semibold text-gray-800 mb-2"
-                style={{ fontFamily: "Quantico" }}
-              >
+              <h3 className="text-2xl font-semibold text-gray-800 mb-2">
                 {feature.title}
               </h3>
               <p className="text-gray-600">{feature.description}</p>
