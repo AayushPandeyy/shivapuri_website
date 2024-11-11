@@ -85,10 +85,10 @@ const SendUsAMessageSection = () => {
             backgroundColor: "white",
           }}
         >
-          <h1 className="text-sm font-bold text-center text-red-400">
+          <h1 className="text-lg font-bold text-center text-red-400">
             Contact Us
           </h1>
-          <h1 className="text-xl sm:text-2xl font-bold text-center mb-6 text-[#0056A7]">
+          <h1 className="text-xl sm:text-4xl font-bold text-center mb-6 text-[#0056A7]">
             We'd love to hear from you!
           </h1>
 
@@ -118,7 +118,7 @@ const SendUsAMessageSection = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-gradient-to-r from-blue-400 to-[#0056A7] text-white font-bold py-3 rounded-lg hover:from-yellow-500 hover:to-yellow-700 transition duration-200"
+              className="w-full bg-gradient-to-r from-blue-400 to-[#0056A7] text-white font-bold py-3 rounded-lg hover:from-gray-600 hover:to-gray-900 hover transition duration-200"
             >
               Send Message
             </button>
