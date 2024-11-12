@@ -31,7 +31,7 @@ const Navbar = () => {
               About Us
             </Link>
             <Link
-              href="/skills"
+              to="/academics"
               className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium "
             >
               Academics
@@ -107,7 +107,7 @@ const Navbar = () => {
               About Us
             </Link>
             <Link
-              href="#projects"
+              href="/academics"
               className="block text-white hover:text-red-500  px-3 py-2 rounded-md text-base font-medium"
             >
               Academics
