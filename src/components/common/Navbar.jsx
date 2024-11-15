@@ -44,7 +44,7 @@ const Navbar = () => {
               />
             </Link>
             <Link
-              href="/projects"
+              to="/admission"
               className="text-white hover:text-red-500  px-3 py-2 rounded-md text-lg font-medium "
             >
               Admission

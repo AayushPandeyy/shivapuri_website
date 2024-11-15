@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         academics: "url('./assets/image-1.jpg')",
+        admission: "url('./assets/image-2.jpg')",
       },
     },
   },
