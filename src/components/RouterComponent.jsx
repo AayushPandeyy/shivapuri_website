@@ -5,10 +5,12 @@ import AboutUsComponent from "../pages/AboutUsComponent";
 import AcademicsComponent from "../pages/AcademicsComponent";
 import AdmissionComponent from "../pages/AdmissionComponent";
 import ContactComponent from "../pages/ContactComponent";
+import ScrollToTop from "./ScrollToTop";
 
 const RouterComponent = () => {
   return (
     <div>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomeComponent />}></Route>
         <Route path="/about-us" element={<AboutUsComponent />}></Route>

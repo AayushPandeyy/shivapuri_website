@@ -13,10 +13,18 @@ const Footer = () => {
           <Link to="/about-us" className="hover:text-gray-600">
             About Us
           </Link>
-          <Link className="hover:text-gray-600">Academics</Link>
-          <Link className="hover:text-gray-600">Admission</Link>
-          <Link className="hover:text-gray-600">Gallery</Link>
-          <Link className="hover:text-gray-600">Contact</Link>
+          <Link to="/academics" className="hover:text-gray-600">
+            Academics
+          </Link>
+          <Link to="/admission" className="hover:text-gray-600">
+            Admission
+          </Link>
+          <Link to="/gallery" className="hover:text-gray-600">
+            Gallery
+          </Link>
+          <Link to="/contact" className="hover:text-gray-600">
+            Contact
+          </Link>
         </div>
 
         <p className="text-gray-400">&#169; 2024 Shivapuri College</p>
