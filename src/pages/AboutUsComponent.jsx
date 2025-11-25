@@ -3,7 +3,7 @@ import TopNavBar from "../components/common/TopNavBar";
 import Navbar from "../components/common/Navbar";
 import AboutUsHeroSection from "../components/aboutUsPage/AboutUsHeroSection";
 import bg from "../assets/image-8.jpeg";
-import OurMissionSection from "../components/aboutUsPage/OurMIssionSection";
+import OurMissionSection from "../components/aboutUsPage/OurMissionSection";
 import OurFeaturesSection from "../components/aboutUsPage/OurFeaturesSection";
 import Footer from "../components/common/Footer";
 import MessageFromThePrincipalSection from "../components/aboutUsPage/MessageFromThePrincipalSection";
